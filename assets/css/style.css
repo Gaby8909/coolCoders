@@ -4,3 +4,15 @@ body {
     font-family:"Verdana";
     font-size: 16px;
 }
+.nav {
+    background: #FBB03B;
+    height: 60px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.logo {
+}
+.menuTop {
+     flex-direction: row;
+}
