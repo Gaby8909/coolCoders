@@ -12,20 +12,29 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 30px;
 }
 .logo {
 }
-
 .menuTop {
     display: flex;
     list-style: none;
+    height: 60px;
+    justify-content: space-around;
+}
+.menuTop-but {
+    display: flex;
 }
 .menuTop-but a {
-    border: 1px solid #000;
     color: #FFF;
     text-decoration: none;
-
-
+    padding: 20px 40px;
+    margin: auto;
+}
+.menuTop-but a:hover, .active {
+    background-color: #FBD03B;
+    color: #000000;
+    font-weight: bold;
 }
 
 
@@ -39,4 +48,5 @@ body {
 
 
 
-}
+
+
