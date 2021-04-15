@@ -9,10 +9,27 @@ body {
     height: 60px;
     padding: 10px;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 .logo {
 }
+
 .menuTop {
-     flex-direction: row;
+    display: flex;
+    list-style: none;
+}
+.menuTop-but {}
+
+
+
+
+
+
+
+
+
+
+
+
 }
