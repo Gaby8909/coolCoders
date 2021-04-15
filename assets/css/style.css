@@ -1,7 +1,7 @@
 body {
     background: #fff;
     color: #000;
-    font-family:"Verdana";
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
     font-size: 16px;
     margin: 0;
     padding: 0;
@@ -13,7 +13,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0 30px;
-    box-shadow:  3px 3px 5px 6px #ccc;
+    box-shadow:  3px 3px 5px 6px #666;
 }
 .logo {
 }
@@ -37,8 +37,37 @@ body {
     color: #000000;
     font-weight: bold;
 }
-
-
+.container {
+    background-color: #EFEFEF;
+    margin: 0;
+    padding: 25px 30px;
+}
+h1 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.intro {
+    font-size: 20px;
+    line-height: 25px;
+}
+.mb30 {
+    margin-bottom: 150px;
+}
+.profiles {
+    display: flex;
+    justify-content: space-between;
+}
+.profiles li {
+    border: 1px solid #000000;
+    width: 250px;
+    margin-right: 60px;
+}
+.img-profile {
+    width: 250px;
+    border-radius: 50%;
+    border: 1px solid #FBB03B;
+    margin-bottom: 10px;
+}
 
 
 
