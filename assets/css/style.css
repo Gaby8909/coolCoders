@@ -13,8 +13,8 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0 30px;
-    box-shadow:  3px 3px 5px 6px #666;
 }
+
 .logo {
 }
 .menuTop {
@@ -29,7 +29,7 @@ body {
 .menuTop-but a {
     color: #FFF;
     text-decoration: none;
-    padding: 15px 5px;
+    padding: 21px 5px;
     margin: auto;
 }
 .menuTop-but a:hover, .active {
@@ -38,7 +38,7 @@ body {
     font-weight: bold;
 }
 .container {
-    background-color: #EFEFEF;
+    background-color: red;
     margin: 0;
     padding: 25px 30px;
 }
@@ -55,18 +55,20 @@ h1 {
 }
 .profiles {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     list-style: none;
     flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
 }
 .profiles li {
     width: 250px;
-    margin-right: 60px;
+    margin: 0 60px 125px 0;
 }
 .img-profile {
     width: 250px;
     border-radius: 50%;
-    border: 1px solid #FBB03B;
+    border: 1px solid #999;
     margin-bottom: 10px;
 }
 .img-link {
