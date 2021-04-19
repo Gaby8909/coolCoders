@@ -8,23 +8,26 @@ body {
 }
 .nav {
     background: #FBB03B;
-    height: 60px;
     display: flex;
+    height: 60px;
     justify-content: space-between;
     align-items: center;
-    padding: 0 30px;
+    padding: 0 ;
     box-shadow: 0px 10px 10px -6px #999999;
     position: fixed;
+    z-index: 100;
     width: 100%;
+    align-items: center;
 }
-
-.logo {
+.logo{
+    margin-left: 25px;
 }
 .menuTop {
     display: flex;
     list-style: none;
     height: 60px;
     justify-content: space-around;
+    margin-right: 25px;
 }
 .menuTop-but {
     display: flex;
@@ -66,6 +69,9 @@ h1 {
 .profiles li {
     width: 250px;
     margin: 0 60px 125px 0;
+}
+.profiles li a {
+    text-decoration: none;
 }
 .img-profile {
     width: 250px;
