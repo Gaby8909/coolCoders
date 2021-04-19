@@ -35,13 +35,16 @@ body {
 .menuTop-but a {
     color: #FFF;
     text-decoration: none;
-    padding: 21px 5px;
+    padding: 0 10px;
     margin: auto;
+    font-weight: bold;
 }
-.menuTop-but a:hover, .active {
+.active {
     background-color: #FBD03B;
     color: #000000;
-    font-weight: bold;
+}
+.menuTop-but a:hover {
+    color: #000000;
 }
 .container {
     margin: 0;
