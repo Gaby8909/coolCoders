@@ -94,10 +94,9 @@ h1 {
     background-size: cover;
     width: 100%;
     background-color: fuchsia;
+    background-image: url("../img/back-banner.jpg");
     }
-.container {
-    background-image: url("background.png");
-}
+
 
 
 
