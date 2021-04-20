@@ -88,12 +88,13 @@ h1 {
 }
 /*QUE HACEMOS;*/
 .banner {
-    position: relative;
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
     width: 100%;
     background-image: url("../img/back-banner.jpg");
+    padding: 20px;
+    margin: 0;
     }
 
 
