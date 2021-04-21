@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
 }
-.nav {
+nav {
     background: #FBB03B;
     display: flex;
     height: 60px;
@@ -47,20 +47,38 @@ body {
     color: #000000;
 }
 /*QUIENES SOMOS;*/
-.container {
+
+.banner {
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+    background-size: cover;
+    width: 100%;
+    background-image: url("../img/bk-banner.png");
+    padding: 0;
     margin: 0;
-    padding: 100px 30px;
+    height: 300px;
 }
-h1 {
-    font-size: 30px;
-    margin-bottom: 25px;
+main {
+    margin: 0;
+    padding: 30px 30px 50px;
+    text-align: center;
 }
 .intro {
-    font-size: 20px;
-    line-height: 25px;
+    font-size: 40px;
+    line-height: 50px;
+    padding: 60px 35px 40px 35px;
+    margin-left: 20px;
+    color: #FBB03B;
+    width: 50%;
+    font-style: italic;
 }
-.mb30 {
-    margin-bottom: 150px;
+.mb70 {
+    margin-bottom: 70px;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 50px;
 }
 .profiles {
     display: flex;
@@ -68,7 +86,7 @@ h1 {
     list-style: none;
     flex-wrap: wrap;
     margin: 0;
-    padding: 0;
+    padding: 30px;
 }
 .profiles li {
     width: 250px;
@@ -87,19 +105,12 @@ h1 {
     width: 15px;
 }
 /*QUE HACEMOS;*/
-.banner {
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
-    width: 100%;
-    background-image: url("../img/back-banner.jpg");
-    padding: 20px;
-    margin: 0;
-}
-.listaservi {
+
+.listaServcios {
     list-style: none;
     display: flex;
-    border: 1px solid #FBB03B;
+    margin-top: 80px;
+    padding: 30px 20px;
 }
 .item {
     border: 1px solid #999999;
@@ -110,21 +121,30 @@ h1 {
     padding: 25px;
 }
 .iconoServicios {
-    width: 200px;
+    width: 100px;
 }
 .intro-banner{
     font-size: 20px;
-    line-height: 25px;
+    line-height: 40px;
 }
 h4 {
-    font-size: 28px;
+    font-size: 26px;
     color: #FBB03B;
     line-height: 30px;
     margin-bottom: 30px;
     text-decoration: underline;
     text-transform: uppercase;
+    font-weight: 500;
 }
-
+h5 {
+    font-size: 20px;
+    color: #333;
+    line-height: 25px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+}
 
 
 
