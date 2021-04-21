@@ -72,13 +72,18 @@ main {
     width: 50%;
     font-style: italic;
 }
+.mb30 {
+    margin-bottom: 30px;
+}
 .mb70 {
     margin-bottom: 70px;
 }
-
 h1 {
     font-size: 30px;
     margin-bottom: 50px;
+}
+.about {
+    padding: 100px 0;
 }
 .profiles {
     display: flex;
@@ -145,6 +150,7 @@ h5 {
     text-transform: uppercase;
     font-weight: 500;
 }
+.
 
 
 
