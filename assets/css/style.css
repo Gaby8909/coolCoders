@@ -72,18 +72,19 @@ main {
     width: 50%;
     font-style: italic;
 }
-.mb30 {
-    margin-bottom: 30px;
+.pt-100 {
+    padding-top: 100px;
 }
-.mb70 {
+.mb-50 {
+    margin-bottom: 50px;
+}
+.mb-70 {
     margin-bottom: 70px;
 }
+
 h1 {
     font-size: 30px;
     margin-bottom: 50px;
-}
-.about {
-    padding: 100px 0;
 }
 .profiles {
     display: flex;
@@ -111,7 +112,7 @@ h1 {
 }
 /*QUE HACEMOS;*/
 
-.listaServcios {
+.listaServicios {
     list-style: none;
     display: flex;
     margin-top: 80px;
@@ -128,7 +129,7 @@ h1 {
 .iconoServicios {
     width: 100px;
 }
-.intro-banner{
+.intro-module {
     font-size: 20px;
     line-height: 40px;
 }
