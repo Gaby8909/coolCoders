@@ -48,7 +48,24 @@ nav {
     color: #000000;
     background-color: #FBD03B;
 }
+/*HOME;*/
 
+.home-module {
+    background-image: url("../img/bk-home.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.p-module {
+    font-size: 48px;
+    line-height: 50px;
+    margin-left: 20px;
+    color: #FFF;
+    font-weight: 500;
+}
+#text-yellow {
+    color: #FBB03B;
+}
 /*QUIENES SOMOS;*/
 
 .banner {
