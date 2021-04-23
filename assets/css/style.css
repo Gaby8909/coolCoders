@@ -40,7 +40,6 @@ nav {
     font-size: 16px;
     color: #FFF;
 }
-
 .active {
     background-color: #FBD03B;
     color: #000000;
@@ -49,8 +48,6 @@ nav {
     color: #000000;
     background-color: #FBD03B;
 }
-/*HOME;*/
-
 .home-module {
     background-image: url("../img/bk-home.jpg");
     width: 100%;
@@ -63,14 +60,13 @@ nav {
     line-height: 50px;
     margin-left: 20px;
     color: #FFF;
-    font-weight: 500;
+    font-weight: 400;
+    letter-spacing: normal;
 }
 #text-yellow {
     color: #FBB03B;
     font-weight: bold;
 }
-/*QUIENES SOMOS;*/
-
 .banner {
     background-repeat: no-repeat;
     background-position: 100% 50%;
@@ -79,12 +75,12 @@ nav {
     background-image: url("../img/bk-banner.png");
     padding: 0;
     margin: 0;
-    height: 300px;
+    height: 50%;
     max-width: 100%;
 }
 main {
     margin: 0;
-    padding: 30px 30px 50px;
+    padding: 30px 50px;
     text-align: center;
 }
 .intro {
@@ -105,7 +101,9 @@ main {
 .mb-70 {
     margin-bottom: 70px;
 }
-
+.mb-100 {
+    margin-bottom: 70px;
+}
 h1 {
     font-size: 30px;
     margin-bottom: 50px;
@@ -125,6 +123,9 @@ h1 {
 .profiles li a {
     text-decoration: none;
 }
+.profiles li a:hover {
+    color: #FBB03B;
+}
 .img-profile {
     width: 250px;
     border-radius: 50%;
@@ -139,6 +140,9 @@ h1 {
     .img-profile {
     border-radius: 5%;
     }
+    .intro {
+        font-size: 30px;
+    }
 }
 .img-link {
     width: 15px;
@@ -149,17 +153,25 @@ h1 {
 .listaServicios {
     list-style: none;
     display: flex;
-    margin-top: 80px;
-    padding: 30px 20px;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 .item {
     border: 1px solid #999999;
-    margin: 0 30px;
-    width: 20%;
     justify-content: space-between;
     text-align: center;
-    padding: 25px;
+    padding: 30px 15px;
     box-shadow: 10px 10px 10px -6px #999999;
+    width: 20%;
+    margin: 0 10px 100px 20px;
+}
+@media only screen and (max-width: 480px) {
+    .listaServicios,
+    .item {
+        width: 100%;
+    }
 }
 .iconoServicios {
     width: 100px;
@@ -176,7 +188,7 @@ h4 {
     margin-bottom: 30px;
     text-decoration: underline;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 600;
 }
 h5 {
     font-size: 20px;
